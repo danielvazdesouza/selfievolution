@@ -11,7 +11,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        tools:ignore="UselessParent" >
 
         <TextView
             android:id="@+id/textView1"
@@ -19,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
-            android:text="Cadastro de Usuário"
+            android:text="@string/text_addUser"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
@@ -31,7 +32,7 @@
             android:layout_marginRight="50dp"
             android:layout_marginTop="20dp"
             android:ems="10"
-            android:hint="Nome completo"
+            android:hint="@string/text_fullName"
             android:inputType="textPersonName" >
 
             <requestFocus />
@@ -44,7 +45,7 @@
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
             android:ems="10"
-            android:hint="Email"
+            android:hint="@string/mail"
             android:inputType="textEmailAddress" />
 
         <EditText
@@ -55,7 +56,7 @@
             android:layout_marginRight="50dp"
             android:layout_marginTop="20dp"
             android:ems="10"
-            android:hint="Senha"
+            android:hint="@string/password"
             android:inputType="textPassword" />
 
         <Button
@@ -64,7 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="20dp"
-            android:text="Salvar" 
+            android:text="@string/button_save" 
             android:onClick="cadastrarUsuario"/>
 
     </LinearLayout>

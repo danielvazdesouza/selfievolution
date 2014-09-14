@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="20dp"
-            android:hint="E-mail"
+            android:hint="@string/mail"
             android:text="@string/hello_world"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
@@ -31,7 +31,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:ems="10"
-            android:hint="Email"
+            android:hint="@string/mail"
             android:inputType="textEmailAddress" >
 
             <requestFocus />
@@ -45,7 +45,7 @@
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
             android:ems="10"
-            android:hint="Senha"
+            android:hint="@string/password"
             android:inputType="textPassword" />
 
         <Button
@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="10dp"
-            android:text="Entrar" />
+            android:text="@string/button_enter" />
 
         <TextView
             android:id="@+id/textView2"
@@ -64,7 +64,7 @@
             android:layout_marginTop="10dp"
             android:clickable="true"
             android:onClick="cadastrar"
-            android:text="Primeira vez? Clique aqui e Cadastre-se"
+            android:text="@string/text_firstTime"
             android:textAppearance="?android:attr/textAppearanceSmall" />
 
 		<com.facebook.widget.LoginButton

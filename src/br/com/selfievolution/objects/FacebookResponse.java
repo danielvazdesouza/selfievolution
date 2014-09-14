@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class FacebookResponse {
 
-    ArrayList <String> data = new ArrayList<>();
+    ArrayList <String> data = new ArrayList<String>();
 
     public String id, first_name;
     
